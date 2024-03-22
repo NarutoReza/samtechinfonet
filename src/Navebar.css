@@ -1,0 +1,59 @@
+.line{
+    width: 100vw;
+    height: 3px;
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.footer{
+    background-color: rgb(37, 37, 37);
+    color: whitesmoke;
+    padding-top: 15px;
+}
+
+.menu{
+    display: inline-flex;
+    cursor: default;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu ul li{
+    list-style: none;
+    padding-right: 10px;
+    display: inline-flex;
+}
+
+.touch{
+    text-decoration: underline;
+    text-decoration-color: rgb(129, 100, 27);
+    text-underline-offset: 5px;
+}
+
+.touch h6{
+    margin-left: 12px;
+}
+
+.contact{
+    display: flex;
+    margin-top: 5px;
+}
+
+.data{
+    display: flex;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 20px;
+}
+
+.data i{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 50px;
+    width: 26px;
+    height: 26px;
+}

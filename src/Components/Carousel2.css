@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    width: 70%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+}
+
+.img{
+    width: 20vw;
+}
